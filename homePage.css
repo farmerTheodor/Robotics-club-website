@@ -1,0 +1,200 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+  display:flex;
+}
+
+body{
+    padding: 0;
+    margin: 0;  
+        font-family: 'Josefin Slab';
+}
+
+
+nav{
+    padding: 0px;
+
+    
+}
+.navBackground{
+    position: absolute;
+    background-image: url(./roboticsWebsiteHeaderArt.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 100;
+    padding-bottom: 10em;
+    animation: moveBack 1s infinite alternate;
+}
+
+@keyframes moveBack{
+  0%{}
+  25%{}
+  50%{}
+  75%{}
+  100%{}
+}
+
+@-webkit-keyframes moveBack{
+    0%{
+        padding-bottom: 10em;
+    }
+    25%{
+        padding-bottom: 9em;
+    }
+    50%  {
+    padding-bottom: 5em;
+  }
+  75%  {
+    padding-bottom: 2em;
+  }
+  100% {
+    padding-bottom: 1em;
+  }
+}
+
+.navPadding{
+    display: flex;
+    padding-right: 2em;  
+    padding-left: 2em;
+}
+
+
+.navImage{
+    max-height: 7em;;
+    max-width: 5em;
+    float: right;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.mainBar {
+    padding-top: 4.5em;
+	display: inline-flex;
+    flex-direction: row;
+    flex:1;
+}
+
+.mainBar a{
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	color:#ffffff;   
+    border-radius: .1em;
+
+}
+
+.mainBar li{
+    flex-grow:2;
+    background-color: #1E0400 ;
+	list-style-type: none;
+    text-align: center;
+}
+
+.mainBar li a:hover{
+	border-bottom: 1px solid;
+    padding-bottom: 9px;
+}
+
+.pageBackground{
+	background-color: #dddddd;
+    align-content: stretch;
+}
+
+.slidePadding{
+    padding-top: 3em;
+}
+.slideShowPage{
+    width: 100%;
+    height: 100%;
+}
+
+h2.subjectDiv{
+    color:whitesmoke; 
+    margin: 0px;
+    margin-right: .5em;
+     text-shadow: 0 -1px 0 #888;
+}
+
+.dividerShadowBot{
+    justify-content: center;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    border-radius: .1em;
+    background-color: #1E0400;
+    box-shadow: 0em .2em .7em .3em #665;
+}
+
+.dividerShadowTop{
+    justify-content: center;
+    background-image: url(testRoboPic.jpg);
+    padding-bottom: .5em;
+    padding-top: .5em;
+    border-radius: .1em;
+    box-shadow: 0em -.1em .2em .1em #665;
+}
+
+
+.sponsorBackground{
+    background-image: url(./circle7308.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    display: block;
+}
+
+.sponsorList{
+    justify-content: center;
+    display: flex;
+}
+
+.sponsorSquare{
+    border-radius: .1em;
+    width: 27%;
+    height: 10em;
+    display: block;
+    text-align: center;
+    padding: 2%;
+    margin: 1%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: #ba17000f;
+}
+
+.sponsorImage{
+    position: relative;
+    width: 100%;
+    max-height: 75%;
+
+    
+    max-height: 100%;
+    object-fit: contain
+}
+
+.projectCircle{
+    border-radius: 100%;
+    width: 27%;
+    height: 10em;
+    background-color: #ba17003f;
+    
+}
+
+
+.footerContainer{
+    padding:2em;
+    background-color: #b10000fa;
+}
+
+.footerText{
+    color: white;
+    white-space:pre-wrap;
+    text-shadow: 0 -1px 0 #999;
+    margin-left: 1em;
+}
