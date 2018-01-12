@@ -28,33 +28,6 @@ nav{
     background-size: cover;
     z-index: 100;
     padding-bottom: 10em;
-    animation: moveBack 1s infinite alternate;
-}
-
-@keyframes moveBack{
-  0%{}
-  25%{}
-  50%{}
-  75%{}
-  100%{}
-}
-
-@-webkit-keyframes moveBack{
-    0%{
-        padding-bottom: 10em;
-    }
-    25%{
-        padding-bottom: 9em;
-    }
-    50%  {
-    padding-bottom: 5em;
-  }
-  75%  {
-    padding-bottom: 2em;
-  }
-  100% {
-    padding-bottom: 1em;
-  }
 }
 
 .navPadding{
@@ -179,9 +152,10 @@ h2.subjectDiv{
 }
 
 .projectCircle{
-    border-radius: 100%;
-    width: 27%;
-    height: 10em;
+    margin: 1em;
+    width: 50%;
+    padding-bottom: 25%;
+    border-radius: 50%;
     background-color: #ba17003f;    
 }
 

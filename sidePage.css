@@ -1,5 +1,5 @@
 .navSpacer{
-    padding:10em;   
+    padding:7em;   
 }
 .heading{
     justify-content: center;
@@ -7,14 +7,19 @@
 }
 .projectRight{
     margin: 2em;
-    margin-right: 10em;
-    background-color: #1E0400;
-    box-shadow: 0em .2em .7em .3em #665;
+    margin-right: 15%;
+    background-color: #ba1700cf;
+    box-shadow: 0em .2em .7em .3em #aaa;
+    border-radius: 1em;
 }
 .projectLeft{
-    
     margin: 2em;
-    margin-left: 10em;
+    margin-left: 15%;
+    background-color: #ba1700cf;
+    display: block;
+    box-shadow: 0em .2em .7em .3em #aaa;
+    border-radius: 1em;
+    
 }
 
 .textBox{
