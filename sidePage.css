@@ -1,5 +1,5 @@
 .navSpacer{
-    padding:7em;   
+    padding:9em;   
 }
 .heading{
     justify-content: center;
@@ -9,6 +9,7 @@
     margin: 2em;
     margin-right: 15%;
     background-color: #ba1700cf;
+    display: block;
     box-shadow: 0em .2em .7em .3em #aaa;
     border-radius: 1em;
 }
@@ -21,6 +22,66 @@
     border-radius: 1em;
     
 }
+.projectCenter{
+    margin: 2em;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    background-color: #ba1700cf;
+    display: block;
+    box-shadow: 0em .2em .7em .3em #aaa;
+    border-radius: 1em;
+}
+.dividerOverReachLeft{
+    width: 83vw;
+    position: relative;
+    left: 60.5%;
+    margin-left: -50vw;
+    margin-right: -50vw;    
+    justify-content: center;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    border-radius: .1em;
+    background-color: #1E0400;
+    box-shadow: 0em .1em 1em .1em #222;
+}
+
+.dividerOverReachRight{
+    width: 83vw;
+    position: relative;
+    left: 60.5%;
+    margin-left: -50vw;
+    margin-right: -50vw;    
+    justify-content: center;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    border-radius: .1em;
+    background-color: #1E0400;
+    box-shadow: 0em .1em 1em .1em #222;
+}
+
+/* idea for moving div beyond parent container from 
+https://css-tricks.com/full-width-containers-limited-width-parents/
+*/
+.dividerOverReachCenter{
+    width: 86vw;
+    position: relative;
+    left: 58.5%;
+    margin-left: -50vw;
+    margin-right: -50vw;    
+    justify-content: center;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    border-radius: .1em;
+    background-color: #1E0400;
+    box-shadow: 0em .1em 1em .1em #222;
+}
+
+.projectTitleDiv{
+    justify-content: center;
+    border-radius: 1em 1em 0em 0em;;
+    background-color: #1E0400;
+}
+
 
 .textBox{
     margin: 1em;
