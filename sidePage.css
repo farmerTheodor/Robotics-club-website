@@ -1,14 +1,25 @@
 .navSpacer{
     padding:10em;   
 }
-
+.heading{
+    justify-content: center;
+    
+}
 .projectRight{
     margin: 2em;
     margin-right: 10em;
+    background-color: #1E0400;
+    box-shadow: 0em .2em .7em .3em #665;
+}
+.projectLeft{
     
+    margin: 2em;
+    margin-left: 10em;
 }
 
 .textBox{
+    margin: 1em;
+    border-radius: .1em;
     background-color: white;
     width: 100%;
 }

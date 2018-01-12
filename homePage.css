@@ -133,7 +133,7 @@ h2.subjectDiv{
 
 .dividerShadowTop{
     justify-content: center;
-    background-image: url(testRoboPic.jpg);
+    background-color: #1E0400;
     padding-bottom: .5em;
     padding-top: .5em;
     border-radius: .1em;
@@ -182,8 +182,7 @@ h2.subjectDiv{
     border-radius: 100%;
     width: 27%;
     height: 10em;
-    background-color: #ba17003f;
-    
+    background-color: #ba17003f;    
 }
 
 
