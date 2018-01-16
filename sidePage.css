@@ -89,3 +89,34 @@ https://css-tricks.com/full-width-containers-limited-width-parents/
     background-color: white;
     width: 100%;
 }
+
+.idCardHolder{
+    margin: 1em;
+    font-size: .75em;
+}
+
+.idCard{
+    min-width: 45%;
+    max-width: 50%;
+    margin: .5%;
+    border-radius: .1em;
+    justify-content: center;
+}
+
+.idTag{
+    color: white;
+    justify-content: center;
+    padding:1em;
+    padding-top: 1em;
+    padding-bottom:1em;
+    border-radius: 1em;
+    background-color: #1E0400;
+    
+}
+
+.idCardImage{
+    margin: .5em;
+    width: 30%;
+    background-color: white;
+    border-radius: 1em;
+}
