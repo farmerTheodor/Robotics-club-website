@@ -91,6 +91,8 @@ https://css-tricks.com/full-width-containers-limited-width-parents/
 }
 
 .idCardHolder{
+    display: flex;
+    flex-wrap: wrap;
     margin: 1em;
     font-size: .75em;
 }
@@ -119,4 +121,44 @@ https://css-tricks.com/full-width-containers-limited-width-parents/
     width: 30%;
     background-color: white;
     border-radius: 1em;
+}
+
+.timeline{
+    overflow:hidden;
+    justify-content: center;
+    display: block;
+    
+}
+
+.dateTimeline{
+    justify-content: center;
+}
+
+.monthBar{
+    height: 100px;
+    width: 2px;
+    background-color: black;
+}
+
+.lineTimeline{
+    justify-content: center;
+}
+
+.lineEvents{
+    margin-top: 50px;
+    width: 100px;
+    height: 1px;
+    background-color: black;
+}
+
+.updateEvent{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    
+}
+.dateEvent{
+    margin-top: 25px;
+    color:white;
+    
 }
