@@ -1,6 +1,6 @@
 
 
-var currentMonth = 0;
+var currentMonth = 1;
 
 function changeToSlide(slideToChangeTo) {
     var i;
@@ -9,10 +9,13 @@ function changeToSlide(slideToChangeTo) {
         currentMonth = currentMonth - 1;
         return;
     }
+    currentSlides[slideToChangeTo].style.left = "100%"; 
     for(i = 0; i < currentSlides.length; i = i + 1){
         currentSlides[i].style.display = "none";
     }
-    currentSlides[slideToChangeTo].style.display = "block";
+   
+currentSlides[slideToChangeTo].style.display = "block";
+    currentSlides[slideToChangeTo].style.transform = "translate(100,0)";
     
 }
 

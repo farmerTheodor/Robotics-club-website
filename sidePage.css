@@ -126,8 +126,10 @@ https://css-tricks.com/full-width-containers-limited-width-parents/
 .timeline{
     overflow:hidden;
     justify-content: center;
-    display: block;
-    
+    display: none;
+    transition-property:all;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(.74,0,.51,.09);
 }
 
 .dateTimeline{
